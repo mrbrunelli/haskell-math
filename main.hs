@@ -1,4 +1,4 @@
-square :: Int -> Int
+square :: Float -> Float
 square x = x * x
 
 fat :: Int -> Int
@@ -13,3 +13,12 @@ sum x y = x + y
 
 proportion :: Float -> Float -> Float -> Float
 proportion n1 n2 n3 = n2 * n3 / n1
+
+area :: Float -> Float
+area x = x * x * pi
+
+perimeter :: Float -> Float
+perimeter x = x * 2 * pi
+
+hypotenuse :: Float -> Float -> Float
+hypotenuse x y = sqrt (square x + square y)

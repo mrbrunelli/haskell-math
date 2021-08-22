@@ -22,3 +22,12 @@ perimeter x = x * 2 * pi
 
 hypotenuse :: Float -> Float -> Float
 hypotenuse x y = sqrt (square x + square y)
+
+diff :: Float -> Float -> Float
+diff x y = abs (area x - area y)
+
+isEqual :: Float -> Float -> Bool
+isEqual x y = x == y
+
+isDifferent :: Float -> Float -> Bool
+isDifferent x y = x /= y
